@@ -1,4 +1,4 @@
-This folder contains the code for the Smart Contract creation, as well as the tests 
+This folder contains the code for the Smart Contract creation, as well as the tests for
 its functionality. 
 
 To perform the validation, follow these steps: 

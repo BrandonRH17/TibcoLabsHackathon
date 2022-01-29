@@ -5,8 +5,14 @@ const web3 = new Web3(ganache.provider());
 
 const {interface, bytecode} = require('../compile');
 
-let miner; 
-let accounts; 
+
+let walletId = '0xcC7C4D0F193883b0c090E4d0F18e13592E6234Db'; 
+let transHash = 'a98253177d5ab423038313cb591368eacdaf18d4';
+let minerId = 'GT-502';
+let date = '2022-01-28 16:43:34';
+let miningFee = 1;
+
+
 
 
 beforeEach( async ()=>{
@@ -22,54 +28,54 @@ describe('Mining Contract', ()=>{
         assert.ok(miner.options.address);
     });
     it('Assigns wallet', async()=>{
-        await miner.methods.assignWallet(accounts[1]).send({
+        await miner.methods.assignWallet(walletId).send({
             from: accounts[0]
         });
-        const wallet = await miner.methods.walletId().call();
-        assert.equal(accounts[1], wallet)
+        const walletSaved = await miner.methods.walletId().call();
+        assert.equal(walletId, walletSaved)
     })
-    it('Saves the data id', async ()=>{
-        await miner.methods.assignTransHash('1dd4984b0d118569da8620fe67e7fd4bd2889bb316d5ee40ba914eb65f19107d').send({
+    it('Saves the hash id', async ()=>{
+        await miner.methods.assignTransHash(transHash).send({
             from: accounts[0], 
         });
-        const hash = await miner.methods.transHash().call();
-        assert.equal('1dd4984b0d118569da8620fe67e7fd4bd2889bb316d5ee40ba914eb65f19107d', hash)
+        const hashSaved = await miner.methods.transHash().call();
+        assert.equal(transHash, hashSaved)
     });
     it('Saves the miner id', async ()=>{
-        await miner.methods.assignMiner('1A027B').send({
+        await miner.methods.assignMiner(minerId).send({
             from: accounts[0], 
         });
-        const minerId = await miner.methods.minerId().call();
-        assert.equal('1A027B', minerId)
+        const minerIdSaved = await miner.methods.minerId().call();
+        assert.equal(minerId, minerIdSaved)
     });
     it('Saves the date', async ()=>{
-        await miner.methods.assignDate('20-JUN-1990 08:03:00').send({
+        await miner.methods.assignDate(date).send({
             from: accounts[0], 
         });
-        const date = await miner.methods.date().call();
-        assert.equal('20-JUN-1990 08:03:00', date)
+        const dateSaved = await miner.methods.date().call();
+        assert.equal(date, dateSaved)
     });
     it('Saves the mining Fee', async ()=>{
-        await miner.methods.assignMiningFee(2).send({
+        await miner.methods.assignMiningFee(miningFee).send({
             from: accounts[0], 
         });
-        const miningFee = await miner.methods.miningFee().call();
-        assert.equal(2, miningFee)
+        const miningFeeSaved = await miner.methods.miningFee().call();
+        assert.equal(miningFee, miningFeeSaved)
     });
     it('Can only be paid by admin', async () =>{
         await miner.methods.assignWallet(accounts[1]).send({
             from: accounts[0]
         });
-        await miner.methods.assignTransHash('1dd4984b0d118569da8620fe67e7fd4bd2889bb316d5ee40ba914eb65f19107d').send({
+        await miner.methods.assignTransHash(transHash).send({
             from: accounts[0], 
         });
-        await miner.methods.assignMiner('1A027B').send({
+        await miner.methods.assignMiner(minerId).send({
             from: accounts[0], 
         });
-        await miner.methods.assignDate('20-JUN-1990 08:03:00').send({
+        await miner.methods.assignDate(date).send({
             from: accounts[0], 
         });
-        await miner.methods.assignMiningFee(2).send({
+        await miner.methods.assignMiningFee(web3.utils.toWei(String(miningFee))).send({
             from: accounts[0], 
         });
         try{
@@ -89,16 +95,16 @@ describe('Mining Contract', ()=>{
         await miner.methods.assignWallet(accounts[1]).send({
             from: accounts[0]
         });
-        await miner.methods.assignTransHash('1dd4984b0d118569da8620fe67e7fd4bd2889bb316d5ee40ba914eb65f19107d').send({
+        await miner.methods.assignTransHash(transHash).send({
             from: accounts[0], 
         });
-        await miner.methods.assignMiner('1A027B').send({
+        await miner.methods.assignMiner(minerId).send({
             from: accounts[0], 
         });
-        await miner.methods.assignDate('20-JUN-1990 08:03:00').send({
+        await miner.methods.assignDate(date).send({
             from: accounts[0], 
         });
-        await miner.methods.assignMiningFee(web3.utils.toWei('1.9', 'ether')).send({
+        await miner.methods.assignMiningFee(web3.utils.toWei(String(miningFee))).send({
             from: accounts[0], 
         });
 
@@ -112,7 +118,7 @@ describe('Mining Contract', ()=>{
         const difference = finalBalance - initialBalance;
        
 
-        assert(difference > web3.utils.toWei('1.8', 'ether'))
+        assert(difference > web3.utils.toWei('0.9', 'ether'))
     });
     
     

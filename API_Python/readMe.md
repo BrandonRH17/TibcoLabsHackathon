@@ -9,7 +9,6 @@ Requirements:
 Getting Started with Project AIR:
 
 To start we recommend reading the following documentation available at the following [link](https://tibcosoftware.github.io/labs-air/docs/)
-
 	1. (Configure Endpoints in Project Air)[https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/]
 	2. (Data Store Table Setup)[https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/#prerequisite-3-data-store-table-setup]
 	2. (Add Data Base in Project Air) [https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/#adding-data-stores]

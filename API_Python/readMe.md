@@ -17,7 +17,7 @@ To start we recommend reading the following documentation available at the follo
 	   ![ScreenShot](https://github.com/BrandonRH17/TibcoLabsHackathon/blob/main/API_Python/img/pipelines.png)
 
 Getting Started with Python:
-1. First install the follow libraries:
+1. First install the following libraries:
 	On windows:
 	pip install  psycopg2
 	pip install flask
@@ -27,8 +27,8 @@ Getting Started with Python:
 
 2. Download the folder available in [GitHub](https://github.com/BrandonRH17/TibcoLabsHackathon)
 3. Extract the file
-4. Go to API_Python directory and open in Visual Studio Code
-5. Install the python extension to run the code inside Visual Studio code
-6. Now the API  Service its running correctly
+4. Go to API_Python directory and open it in Visual Studio Code
+5. Install the Python extension to run the code inside Visual Studio code
+6. Now the API  Service is running correctly
 
 	

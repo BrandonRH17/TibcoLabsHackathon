@@ -25,7 +25,7 @@ Requirements:<br>
 &nbsp;&nbsp;&nbsp;	pip install python-virtualenv <br> <br>
 
 &nbsp; 1. Download the folder available in [GitHub](https://github.com/BrandonRH17/TibcoLabsHackathon)<br><br>
-&nbsp; 2.Extract the file <br><br>
+&nbsp; 2. Extract the file <br><br>
 &nbsp; 3. Go to API_Python directory and open it in Visual Studio Code <br><br>
 &nbsp; 4. Install the Python extension to run the code inside Visual Studio code <br><br>
 &nbsp; 5. Now the API  Service is running correctly <br><br>

@@ -6,7 +6,7 @@ Requirements:<br>
 &nbsp;&nbsp;	[Python 3.10.0](https://www.python.org/downloads/)<br>
 &nbsp;&nbsp;	[Project AIR](https://github.com/TIBCOSoftware/labs-air/releases/tag/0.6.0-563)<br>
 <br>
-Getting Started with Project AIR:
+<h2>Getting Started with Project AIR: </h2> <br>
 &nbsp;&nbsp;To start we recommend reading the following documentation available at the following [link](https://tibcosoftware.github.io/labs-air/docs/)
 &nbsp;&nbsp;&nbsp;&nbsp;	1. [Configure Endpoints in Project Air](https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/)
 &nbsp;&nbsp;&nbsp;&nbsp;	2. [Data Store Table Setup](https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/#prerequisite-3-data-store-table-setup)

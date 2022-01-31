@@ -1,4 +1,4 @@
-<pre>
+
 API Documentation:
 
 Requirements: 
@@ -31,4 +31,4 @@ Getting Started with Python:
 5. Install the Python extension to run the code inside Visual Studio code
 6. Now the API  Service is running correctly
 
-</pre>
+

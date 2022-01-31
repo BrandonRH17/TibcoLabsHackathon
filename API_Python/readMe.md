@@ -16,16 +16,16 @@ Requirements:<br>
 &nbsp;&nbsp;&nbsp;![ScreenShot](https://github.com/BrandonRH17/TibcoLabsHackathon/blob/main/API_Python/img/pipelines.png) <br>
 
 <h2>Getting Started with Python:</h2>
-1. First install the following libraries:
-	On windows:
-	pip install  psycopg2
-	pip install flask
-	pip install flask-restful
-	pip install requests
-	pip install python-virtualenv
+&nbsp;First install the following libraries: <br>
+&nbsp;&nbsp;	On windows: <br>
+&nbsp;&nbsp;&nbsp;	pip install  psycopg2 <br>
+&nbsp;&nbsp;&nbsp;	pip install flask <br
+&nbsp;&nbsp;&nbsp;	pip install flask-restful <br>
+&nbsp;&nbsp;&nbsp;	pip install requests <br>
+&nbsp;&nbsp;&nbsp;	pip install python-virtualenv <br> <br>
 
-2. Download the folder available in [GitHub](https://github.com/BrandonRH17/TibcoLabsHackathon)
-3. Extract the file
-4. Go to API_Python directory and open it in Visual Studio Code
-5. Install the Python extension to run the code inside Visual Studio code
-6. Now the API  Service is running correctly
+&nbsp; 1. Download the folder available in [GitHub](https://github.com/BrandonRH17/TibcoLabsHackathon)<br><br>
+&nbsp; 2.Extract the file <br><br>
+&nbsp; 3. Go to API_Python directory and open it in Visual Studio Code <br><br>
+&nbsp; 4. Install the Python extension to run the code inside Visual Studio code <br><br>
+&nbsp; 5. Now the API  Service is running correctly <br><br>

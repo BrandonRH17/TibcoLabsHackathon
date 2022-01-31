@@ -1,7 +1,7 @@
 
 API Documentation:
 
-<title>Requirements:</title> <br>
+Requirements:<br>
 	[Docker Desktop: 20.10.8](https://docs.docker.com/get-docker/)<br>
 	[Python 3.10.0](https://www.python.org/downloads/)<br>
 	[Project AIR](https://github.com/TIBCOSoftware/labs-air/releases/tag/0.6.0-563)<br>

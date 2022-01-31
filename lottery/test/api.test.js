@@ -35,7 +35,7 @@ async function upload(json){
 }
 
 
-getJSON('http://127.0.0.1:5000/ethereum', async function(err, data) {
+getJSON('http://127.0.0.1:8000/ethereum', async function(err, data) {
 
     if (err != null) {
         console.error(err);

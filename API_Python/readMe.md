@@ -2,9 +2,9 @@
 API Documentation:
 
 Requirements: 
-	[Docker Desktop: 20.10.8](https://docs.docker.com/get-docker/)
-	[Python 3.10.0](https://www.python.org/downloads/)
-	[Project AIR](https://github.com/TIBCOSoftware/labs-air/releases/tag/0.6.0-563)
+	[Docker Desktop: 20.10.8](https://docs.docker.com/get-docker/)<br>
+	[Python 3.10.0](https://www.python.org/downloads/)<br>
+	[Project AIR](https://github.com/TIBCOSoftware/labs-air/releases/tag/0.6.0-563)<br>
 
 Getting Started with Project AIR:
 

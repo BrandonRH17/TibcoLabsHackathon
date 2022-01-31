@@ -8,14 +8,14 @@ Requirements:<br>
 <br>
 <h2>Getting Started with Project AIR: </h2> <br>
 &nbsp;&nbsp;To start we recommend reading the following documentation available at the following [link](https://tibcosoftware.github.io/labs-air/docs/)
-&nbsp;&nbsp;&nbsp;&nbsp;	1. [Configure Endpoints in Project Air](https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/)
+&nbsp;&nbsp;&nbsp;&nbsp;	1. Configure Endpoints in [Project Air](https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/)
 &nbsp;&nbsp;&nbsp;&nbsp;	2. [Data Store Table Setup](https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/#prerequisite-3-data-store-table-setup)
 &nbsp;&nbsp;&nbsp;&nbsp;	2. [Add Data Base in Project Air](https://tibcosoftware.github.io/labs-air/docs/userguide/configuringendpoints/#adding-data-stores)
 &nbsp;&nbsp;&nbsp;&nbsp;	3. [Configure The Pipelines](https://tibcosoftware.github.io/labs-air/docs/tutorials/#basic-pipe)
 &nbsp;&nbsp;&nbsp;&nbsp;	4. Configure the Storage Pipeline
 &nbsp;&nbsp;&nbsp;&nbsp;	   ![ScreenShot](https://github.com/BrandonRH17/TibcoLabsHackathon/blob/main/API_Python/img/pipelines.png)
 
-Getting Started with Python:
+<h2>Getting Started with Python:</h2>
 1. First install the following libraries:
 	On windows:
 	pip install  psycopg2

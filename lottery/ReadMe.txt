@@ -4,6 +4,7 @@ its functionality.
 To perform the validation, follow these steps: 
 1. Open Powershell on lottery folder. 
 2. Run npm install
+2.1 Run npm install xhr2
 3. Open the Lottery.test.js file in the terminal and run npm run test
 4. If you want to deploy the contract again, open the deploy.js file in terminal
 5. Run npm install @truffle/hdwallet-provider
